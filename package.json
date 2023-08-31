@@ -19,8 +19,6 @@
     "@types/uuid": "^9.0.2",
     "axios": "^1.5.0",
     "react": "^18.2.0",
-    "react-beautiful-dnd": "^13.1.1",
-    "react-colorful": "^5.6.1",
     "react-dom": "^18.2.0",
     "react-error-boundary": "^4.0.11",
     "react-flags-select": "^2.2.3",
@@ -33,11 +31,6 @@
   },
   "scripts": {
     "start": "react-scripts start"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app"
-    ]
   },
   "browserslist": {
     "development": [

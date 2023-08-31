@@ -9,7 +9,7 @@ import { Grid, Pagination } from "@mui/material";
 import { Item } from "../../common/types/Item";
 import React from "react";
 
-const DEFAULT_PER_PAGE = 10
+const DEFAULT_PER_PAGE = 30
 
 export function DashboardItems() {
     const [query, setQuery] = useSearchParams();
