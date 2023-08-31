@@ -11,7 +11,7 @@ const DEFAULT_PAGE = 1
 export function SearchBox() {
     const [value, setValue] = React.useState<string>();
     const [, setQuery] = useSearchParams();
-
+    
     const setQueryCallback = React.useCallback(() => {
         setQuery((query) => {
             if (!value || value === '') {
